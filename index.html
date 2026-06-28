@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adivina el numero</title> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Adivina el número</h1>
+            <p>
+                Estoy pensando en un número entre 1 y 100
+            </p>
+            <input type="number" id="entrada" class="entrada" placeholder="Ingrese el número">
+            <button id="enviar" class="enviar">Adivinar</button>
+            <div id="resultadoDetalles" class="resultadoDetalles">
+                <p id="intentos">intentos previos:</p>
+                <p id="ultimoResultado"></p>
+                <p id="menorMayor"></p>
+            </div>
+            <button id="reset" class="reset" style="display: none;">Reiniciar</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
